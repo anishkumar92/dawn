@@ -15,3 +15,27 @@ body {
   display: flex;
   //   flex-direction: column;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ece5e8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e74485;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c2185b;
+}
+
+a:visited {
+  color: #c2185b;
+}
