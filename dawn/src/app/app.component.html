@@ -1,5 +1,9 @@
-<app-header></app-header>
-<div class="main-root">
-  <router-outlet class="page-height"></router-outlet>
+<div class="wrapper">
+  <app-header></app-header>
+  <div [@routeAnimations]="prepareRoute(outlet)" class="edge-screen">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </div>
+  <div class="push"></div>
 </div>
-<app-footer></app-footer>
+
+<app-footer class="footer"></app-footer>
