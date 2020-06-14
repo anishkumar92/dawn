@@ -8,10 +8,12 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
+    data: { animation: 'home' },
   },
   {
     path: 'about',
     component: AboutComponent,
+    data: { animation: 'about' },
   },
   {
     path: 'contact',
