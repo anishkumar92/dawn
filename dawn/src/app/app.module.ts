@@ -19,6 +19,7 @@ import { HeaderComponent } from './modules/header/header.component';
 import { FooterComponent } from './modules/footer/footer.component';
 import { ContactComponent } from './modules/contact/contact.component';
 import { AboutComponent } from './modules/about/about.component';
+import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { AboutComponent } from './modules/about/about.component';
     FooterComponent,
     ContactComponent,
     AboutComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
