@@ -21,6 +21,7 @@ import { ContactComponent } from './modules/contact/contact.component';
 import { AboutComponent } from './modules/about/about.component';
 import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.component';
 import { SocialIconComponent } from './modules/social-icon/social-icon.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { SocialIconComponent } from './modules/social-icon/social-icon.component
     MatIconModule,
     LayoutModule,
     MatButtonModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
