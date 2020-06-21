@@ -7,14 +7,14 @@ import { ApiService } from 'src/app/shared-service/api.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  quotes: any;
+  quotes: string;
 
   constructor(private apiService: ApiService) {}
 
   ngOnInit(): void {
     this.apiService.getNews().subscribe((data) => {
-      console.log('data', data);
-      this.quotes = data['content'];
+      let quotes = data['content'];
+      this.quotes = quotes.toUpperCase();
     });
   }
 }
