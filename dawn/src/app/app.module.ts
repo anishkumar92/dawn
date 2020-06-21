@@ -20,6 +20,7 @@ import { FooterComponent } from './modules/footer/footer.component';
 import { ContactComponent } from './modules/contact/contact.component';
 import { AboutComponent } from './modules/about/about.component';
 import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.component';
+import { SocialIconComponent } from './modules/social-icon/social-icon.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { PageNotFoundComponent } from './modules/page-not-found/page-not-found.c
     ContactComponent,
     AboutComponent,
     PageNotFoundComponent,
+    SocialIconComponent,
   ],
   imports: [
     BrowserModule,
